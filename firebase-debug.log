@@ -1,0 +1,389 @@
+[debug] [2022-06-07T13:49:52.623Z] ----------------------------------------------------------------------
+[debug] [2022-06-07T13:49:52.624Z] Command:       /Users/cherie/.nvm/versions/node/v14.19.3/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2022-06-07T13:49:52.625Z] CLI Version:   10.8.0
+[debug] [2022-06-07T13:49:52.625Z] Platform:      darwin
+[debug] [2022-06-07T13:49:52.625Z] Node Version:  v14.19.3
+[debug] [2022-06-07T13:49:52.625Z] Time:          Tue Jun 07 2022 09:49:52 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-06-07T13:49:52.625Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-07T13:49:52.672Z] Field ".emulators.hosting.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2022-06-07T13:49:52.674Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-07T13:49:52.675Z] > authorizing via signed-in user (cherieallen90@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-06-07T13:49:52.698Z] [hub] writing locator at /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/hub-easy-fix-app-ca.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[warn] ⚠  Your requested "node" version "16" doesn't match your global version "14". Using node@14 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"14\". Using node@14 from host."}}
+[debug] [2022-06-07T13:49:52.720Z] defaultcredentials: writing to file /Users/cherie/.config/firebase/cherieallen90_gmail_com_application_default_credentials.json
+[debug] [2022-06-07T13:49:52.723Z] Setting GAC to /Users/cherie/.config/firebase/cherieallen90_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/cherie/.config/firebase/cherieallen90_gmail_com_application_default_credentials.json"}}
+[debug] [2022-06-07T13:49:52.725Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/easy-fix-app-ca/adminSdkConfig [none]
+[debug] [2022-06-07T13:49:53.000Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/easy-fix-app-ca/adminSdkConfig 200
+[debug] [2022-06-07T13:49:53.000Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/easy-fix-app-ca/adminSdkConfig {"projectId":"easy-fix-app-ca","storageBucket":"easy-fix-app-ca.appspot.com","locationId":"us-central"}
+[debug] [2022-06-07T13:49:53.038Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/easy-fix-app-ca/sites 
+[debug] [2022-06-07T13:49:53.557Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/easy-fix-app-ca/sites 200
+[debug] [2022-06-07T13:49:53.557Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/easy-fix-app-ca/sites {"sites":[{"name":"projects/easy-fix-app-ca/sites/easy-fix-app-ca","defaultUrl":"https://easy-fix-app-ca.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-06-07T13:49:53.558Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/easy-fix-app-ca/webApps/-/config [none]
+[debug] [2022-06-07T13:49:53.937Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/easy-fix-app-ca/webApps/-/config 200
+[debug] [2022-06-07T13:49:53.938Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/easy-fix-app-ca/webApps/-/config {"projectId":"easy-fix-app-ca","storageBucket":"easy-fix-app-ca.appspot.com","locationId":"us-central","apiKey":"AIzaSyAp1vyAdDQLmvwQnnLgyDqHTtv-HpemU8Q","authDomain":"easy-fix-app-ca.firebaseapp.com","messagingSenderId":"218019848731"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5050 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5050\u001b[22m\u001b[24m"}}
+[debug] [2022-06-07T13:49:54.058Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-06-07T13:49:54.059Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-06-07T13:49:54.059Z] Starting Emulator UI with command {"binary":"node","args":["/Users/cherie/.cache/firebase/emulators/ui-v1.6.6/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/cherie/.cache/firebase/emulators/ui-v1.6.6/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-06-07T13:49:54.143Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "/Users/cherie/code/easy-fix-backend/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/cherie/code/easy-fix-backend/functions\" for Cloud Functions..."}}
+[debug] [2022-06-07T13:49:54.341Z] Validating nodejs source
+[debug] [2022-06-07T13:49:55.835Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "type": "module",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.21.2"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-07T13:49:55.835Z] Building nodejs source
+[debug] [2022-06-07T13:49:55.836Z] Analyzing nodejs backend spec
+[info] ✔  functions[us-central1-api]: http function initialized (http://localhost:5001/easy-fix-app-ca/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/easy-fix-app-ca/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5050 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [07/Jun/2022:13:50:10 +0000] "GET / HTTP/1.1" 200 4596 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jun/2022:13:50:10 +0000] \"GET / HTTP/1.1\" 200 4596 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jun/2022:13:50:10 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5050/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jun/2022:13:50:10 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5050/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15\""}}
+[info] [hosting] Rewriting /comments to http://localhost:5001/easy-fix-app-ca/us-central1/api for local Function us-central1/api
+[debug] [2022-06-07T13:50:15.966Z] >>> [apiv2][query] GET http://localhost:5001/easy-fix-app-ca/us-central1/api/comments 
+[debug] [2022-06-07T13:50:15.978Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-07T13:50:15.978Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-07T13:50:15.979Z] Accepted request GET /easy-fix-app-ca/us-central1/api/comments --> us-central1-api
+[debug] [2022-06-07T13:50:16.001Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-06-07T13:50:16.002Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-06-07T13:50:16.003Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-07T13:50:16.003Z] [worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: Assigning socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2863.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: Assigning socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2863.sock"}}
+[debug] [2022-06-07T13:50:16.003Z] [worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: BUSY"}}
+[debug] [2022-06-07T13:50:16.728Z] [runtime-status] [2863] Functions runtime initialized. {"cwd":"/Users/cherie/code/easy-fix-backend/functions","node_version":"14.19.3"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Functions runtime initialized. {\"cwd\":\"/Users/cherie/code/easy-fix-backend/functions\",\"node_version\":\"14.19.3\"}"}}
+[debug] [2022-06-07T13:50:16.728Z] [runtime-status] [2863] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Disabled runtime features: undefined"}}
+[debug] [2022-06-07T13:50:16.730Z] [runtime-status] [2863] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-06-07T13:50:16.731Z] [runtime-status] [2863] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T13:50:16.731Z] [runtime-status] [2863] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-06-07T13:50:16.732Z] [runtime-status] [2863] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T13:50:16.755Z] [runtime-status] [2863] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-06-07T13:50:16.756Z] [runtime-status] [2863] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-06-07T13:50:16.758Z] [runtime-status] [2863] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T13:50:16.759Z] [runtime-status] [2863] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-06-07T13:50:16.759Z] [runtime-status] [2863] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T13:50:16.759Z] [runtime-status] [2863] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-06-07T13:50:16.971Z] [runtime-status] [2863] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-07T13:50:16.972Z] [runtime-status] [2863] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Running api in signature http"}}
+[debug] [2022-06-07T13:50:16.978Z] [runtime-status] [2863] Attempting to listen to socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2863.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Attempting to listen to socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2863.sock"}}
+[debug] [2022-06-07T13:50:16.980Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-07T13:50:16.981Z] [functions] Got req.url=/easy-fix-app-ca/us-central1/api/comments, mapping to path=/comments {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/easy-fix-app-ca/us-central1/api/comments, mapping to path=/comments"}}
+[debug] [2022-06-07T13:50:16.984Z] [runtime-status] [2863] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Ephemeral server handling GET request"}}
+[debug] [2022-06-07T13:50:17.014Z] [runtime-status] [2863] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Ephemeral server survived."}}
+[debug] [2022-06-07T13:50:17.787Z] <<< [apiv2][status] GET http://localhost:5001/easy-fix-app-ca/us-central1/api/comments 200
+[debug] [2022-06-07T13:50:17.787Z] <<< [apiv2][body] GET http://localhost:5001/easy-fix-app-ca/us-central1/api/comments [stream]
+[info] i  hosting: 127.0.0.1 - - [07/Jun/2022:13:50:17 +0000] "GET /comments HTTP/1.1" 200 81 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jun/2022:13:50:17 +0000] \"GET /comments HTTP/1.1\" 200 81 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-07T13:50:17.789Z] [worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: IDLE"}}
+[debug] [2022-06-07T13:50:17.789Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  hosting: 127.0.0.1 - - [07/Jun/2022:13:53:00 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5050/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jun/2022:13:53:00 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5050/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15\""}}
+[info] [hosting] Rewriting /comments to http://localhost:5001/easy-fix-app-ca/us-central1/api for local Function us-central1/api
+[debug] [2022-06-07T13:53:03.964Z] >>> [apiv2][query] GET http://localhost:5001/easy-fix-app-ca/us-central1/api/comments 
+[debug] [2022-06-07T13:53:03.977Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-07T13:53:03.978Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-07T13:53:03.978Z] Accepted request GET /easy-fix-app-ca/us-central1/api/comments --> us-central1-api
+[debug] [2022-06-07T13:53:03.979Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-07T13:53:03.979Z] [worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: Assigning socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2863.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: Assigning socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2863.sock"}}
+[debug] [2022-06-07T13:53:03.980Z] [worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: BUSY"}}
+[debug] [2022-06-07T13:53:03.981Z] [runtime-status] [2863] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-07T13:53:03.982Z] [runtime-status] [2863] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Running api in signature http"}}
+[debug] [2022-06-07T13:53:03.983Z] [runtime-status] [2863] Attempting to listen to socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2863.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Attempting to listen to socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2863.sock"}}
+[debug] [2022-06-07T13:53:03.991Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-07T13:53:03.992Z] [functions] Got req.url=/easy-fix-app-ca/us-central1/api/comments, mapping to path=/comments {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/easy-fix-app-ca/us-central1/api/comments, mapping to path=/comments"}}
+[debug] [2022-06-07T13:53:03.995Z] [runtime-status] [2863] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Ephemeral server handling GET request"}}
+[debug] [2022-06-07T13:53:03.996Z] [runtime-status] [2863] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2863] Ephemeral server survived."}}
+[debug] [2022-06-07T13:53:04.229Z] <<< [apiv2][status] GET http://localhost:5001/easy-fix-app-ca/us-central1/api/comments 200
+[debug] [2022-06-07T13:53:04.230Z] <<< [apiv2][body] GET http://localhost:5001/easy-fix-app-ca/us-central1/api/comments [stream]
+[info] i  hosting: 127.0.0.1 - - [07/Jun/2022:13:53:04 +0000] "GET /comments HTTP/1.1" 200 81 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jun/2022:13:53:04 +0000] \"GET /comments HTTP/1.1\" 200 81 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-07T13:53:04.235Z] [worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: IDLE"}}
+[debug] [2022-06-07T13:53:04.236Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-07T13:58:20.319Z] File /Users/cherie/code/easy-fix-backend/functions/src/comments.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/cherie/code/easy-fix-backend/functions/src/comments.js changed, reloading triggers"}}
+[debug] [2022-06-07T13:58:21.322Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-06-07T13:58:21.323Z] [worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: FINISHING"}}
+[debug] [2022-06-07T13:58:21.327Z] Validating nodejs source
+[debug] [2022-06-07T13:58:22.779Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "type": "module",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.21.2"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-07T13:58:22.779Z] Building nodejs source
+[debug] [2022-06-07T13:58:22.779Z] Analyzing nodejs backend spec
+[debug] [2022-06-07T13:58:22.788Z] [worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: exited"}}
+[debug] [2022-06-07T13:58:22.788Z] [worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-707524fb-8707-4e31-8776-412520a19856]: FINISHED"}}
+[debug] [2022-06-07T13:59:09.461Z] File /Users/cherie/code/easy-fix-backend/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/cherie/code/easy-fix-backend/functions/index.js changed, reloading triggers"}}
+[debug] [2022-06-07T13:59:10.468Z] Validating nodejs source
+[debug] [2022-06-07T13:59:11.925Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "type": "module",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.21.2"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-07T13:59:11.926Z] Building nodejs source
+[debug] [2022-06-07T13:59:11.926Z] Analyzing nodejs backend spec
+[info] [hosting] Rewriting /comments to http://localhost:5001/easy-fix-app-ca/us-central1/api for local Function us-central1/api
+[debug] [2022-06-07T14:01:04.122Z] >>> [apiv2][query] POST http://localhost:5001/easy-fix-app-ca/us-central1/api/comments 
+[debug] [2022-06-07T14:01:04.122Z] >>> [apiv2][body] POST http://localhost:5001/easy-fix-app-ca/us-central1/api/comments [stream]
+[debug] [2022-06-07T14:01:04.130Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-07T14:01:04.130Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-07T14:01:04.130Z] Accepted request POST /easy-fix-app-ca/us-central1/api/comments --> us-central1-api
+[debug] [2022-06-07T14:01:04.131Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-06-07T14:01:04.148Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-06-07T14:01:04.148Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-06-07T14:01:04.148Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-07T14:01:04.149Z] [worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: Assigning socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2950.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: Assigning socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2950.sock"}}
+[debug] [2022-06-07T14:01:04.149Z] [worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: BUSY"}}
+[debug] [2022-06-07T14:01:04.905Z] [runtime-status] [2950] Functions runtime initialized. {"cwd":"/Users/cherie/code/easy-fix-backend/functions","node_version":"14.19.3"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Functions runtime initialized. {\"cwd\":\"/Users/cherie/code/easy-fix-backend/functions\",\"node_version\":\"14.19.3\"}"}}
+[debug] [2022-06-07T14:01:04.906Z] [runtime-status] [2950] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Disabled runtime features: undefined"}}
+[debug] [2022-06-07T14:01:04.908Z] [runtime-status] [2950] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-06-07T14:01:04.909Z] [runtime-status] [2950] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:01:04.909Z] [runtime-status] [2950] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-06-07T14:01:04.909Z] [runtime-status] [2950] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:01:04.934Z] [runtime-status] [2950] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-06-07T14:01:04.935Z] [runtime-status] [2950] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-06-07T14:01:04.936Z] [runtime-status] [2950] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:01:04.937Z] [runtime-status] [2950] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-06-07T14:01:04.937Z] [runtime-status] [2950] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:01:04.937Z] [runtime-status] [2950] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-06-07T14:01:05.149Z] [runtime-status] [2950] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-07T14:01:05.150Z] [runtime-status] [2950] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Running api in signature http"}}
+[debug] [2022-06-07T14:01:05.152Z] [runtime-status] [2950] Attempting to listen to socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2950.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Attempting to listen to socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2950.sock"}}
+[debug] [2022-06-07T14:01:05.156Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-07T14:01:05.156Z] [functions] Got req.url=/easy-fix-app-ca/us-central1/api/comments, mapping to path=/comments {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/easy-fix-app-ca/us-central1/api/comments, mapping to path=/comments"}}
+[debug] [2022-06-07T14:01:05.171Z] [runtime-status] [2950] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Ephemeral server handling POST request"}}
+[debug] [2022-06-07T14:01:05.175Z] <<< [apiv2][status] POST http://localhost:5001/easy-fix-app-ca/us-central1/api/comments 400
+[debug] [2022-06-07T14:01:05.175Z] <<< [apiv2][body] POST http://localhost:5001/easy-fix-app-ca/us-central1/api/comments [stream]
+[info] i  hosting: 127.0.0.1 - - [07/Jun/2022:14:01:05 +0000] "POST /comments HTTP/1.1" 400 15 "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jun/2022:14:01:05 +0000] \"POST /comments HTTP/1.1\" 400 15 \"-\" \"PostmanRuntime/7.29.0\""}}
+[debug] [2022-06-07T14:01:05.176Z] [runtime-status] [2950] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2950] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-07T14:01:05.176Z] [worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: IDLE"}}
+[debug] [2022-06-07T14:01:05.176Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-07T14:02:48.749Z] File /Users/cherie/code/easy-fix-backend/functions/src/comments.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/cherie/code/easy-fix-backend/functions/src/comments.js changed, reloading triggers"}}
+[debug] [2022-06-07T14:02:49.750Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-06-07T14:02:49.751Z] [worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: FINISHING"}}
+[debug] [2022-06-07T14:02:49.754Z] Validating nodejs source
+[debug] [2022-06-07T14:02:51.756Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "type": "module",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.21.2"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-07T14:02:51.756Z] Building nodejs source
+[debug] [2022-06-07T14:02:51.757Z] Analyzing nodejs backend spec
+[debug] [2022-06-07T14:02:51.766Z] [worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: exited"}}
+[debug] [2022-06-07T14:02:51.766Z] [worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-39f8aa5b-3815-42e2-a0c7-d2f331daac72]: FINISHED"}}
+[info] [hosting] Rewriting /comments to http://localhost:5001/easy-fix-app-ca/us-central1/api for local Function us-central1/api
+[debug] [2022-06-07T14:02:52.140Z] >>> [apiv2][query] POST http://localhost:5001/easy-fix-app-ca/us-central1/api/comments 
+[debug] [2022-06-07T14:02:52.140Z] >>> [apiv2][body] POST http://localhost:5001/easy-fix-app-ca/us-central1/api/comments [stream]
+[debug] [2022-06-07T14:02:52.143Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-07T14:02:52.143Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-07T14:02:52.143Z] Accepted request POST /easy-fix-app-ca/us-central1/api/comments --> us-central1-api
+[debug] [2022-06-07T14:02:52.143Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-06-07T14:02:52.152Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-06-07T14:02:52.153Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-06-07T14:02:52.153Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-07T14:02:52.153Z] [worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: Assigning socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2983.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: Assigning socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2983.sock"}}
+[debug] [2022-06-07T14:02:52.153Z] [worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: BUSY"}}
+[debug] [2022-06-07T14:02:52.870Z] [runtime-status] [2983] Functions runtime initialized. {"cwd":"/Users/cherie/code/easy-fix-backend/functions","node_version":"14.19.3"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Functions runtime initialized. {\"cwd\":\"/Users/cherie/code/easy-fix-backend/functions\",\"node_version\":\"14.19.3\"}"}}
+[debug] [2022-06-07T14:02:52.871Z] [runtime-status] [2983] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Disabled runtime features: undefined"}}
+[debug] [2022-06-07T14:02:52.873Z] [runtime-status] [2983] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-06-07T14:02:52.874Z] [runtime-status] [2983] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:02:52.874Z] [runtime-status] [2983] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-06-07T14:02:52.874Z] [runtime-status] [2983] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:02:52.892Z] [runtime-status] [2983] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-06-07T14:02:52.893Z] [runtime-status] [2983] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-06-07T14:02:52.894Z] [runtime-status] [2983] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:02:52.895Z] [runtime-status] [2983] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-06-07T14:02:52.895Z] [runtime-status] [2983] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:02:52.895Z] [runtime-status] [2983] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-06-07T14:02:53.050Z] [runtime-status] [2983] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-07T14:02:53.050Z] [runtime-status] [2983] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Running api in signature http"}}
+[debug] [2022-06-07T14:02:53.056Z] [runtime-status] [2983] Attempting to listen to socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2983.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Attempting to listen to socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2983.sock"}}
+[debug] [2022-06-07T14:02:53.058Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-07T14:02:53.058Z] [functions] Got req.url=/easy-fix-app-ca/us-central1/api/comments, mapping to path=/comments {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/easy-fix-app-ca/us-central1/api/comments, mapping to path=/comments"}}
+[debug] [2022-06-07T14:02:53.071Z] [runtime-status] [2983] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Ephemeral server handling POST request"}}
+[debug] [2022-06-07T14:02:53.152Z] [runtime-status] [2983] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2983] Ephemeral server survived."}}
+[debug] [2022-06-07T14:02:53.709Z] <<< [apiv2][status] POST http://localhost:5001/easy-fix-app-ca/us-central1/api/comments 200
+[debug] [2022-06-07T14:02:53.709Z] <<< [apiv2][body] POST http://localhost:5001/easy-fix-app-ca/us-central1/api/comments [stream]
+[info] i  hosting: 127.0.0.1 - - [07/Jun/2022:14:02:53 +0000] "POST /comments HTTP/1.1" 200 16 "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jun/2022:14:02:53 +0000] \"POST /comments HTTP/1.1\" 200 16 \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-07T14:02:53.713Z] [worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: IDLE"}}
+[debug] [2022-06-07T14:02:53.713Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-07T14:03:06.108Z] File /Users/cherie/code/easy-fix-backend/functions/src/comments.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/cherie/code/easy-fix-backend/functions/src/comments.js changed, reloading triggers"}}
+[debug] [2022-06-07T14:03:07.109Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-06-07T14:03:07.110Z] [worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: FINISHING"}}
+[debug] [2022-06-07T14:03:07.112Z] Validating nodejs source
+[debug] [2022-06-07T14:03:08.840Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "type": "module",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.21.2"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-07T14:03:08.840Z] Building nodejs source
+[debug] [2022-06-07T14:03:08.840Z] Analyzing nodejs backend spec
+[debug] [2022-06-07T14:03:08.849Z] [worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: exited"}}
+[debug] [2022-06-07T14:03:08.849Z] [worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-2871ab97-56db-46fb-b5d6-973906a7fc37]: FINISHED"}}
+[info] [hosting] Rewriting /comments to http://localhost:5001/easy-fix-app-ca/us-central1/api for local Function us-central1/api
+[debug] [2022-06-07T14:03:54.782Z] >>> [apiv2][query] GET http://localhost:5001/easy-fix-app-ca/us-central1/api/comments 
+[debug] [2022-06-07T14:03:54.794Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-07T14:03:54.794Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-07T14:03:54.794Z] Accepted request GET /easy-fix-app-ca/us-central1/api/comments --> us-central1-api
+[debug] [2022-06-07T14:03:54.795Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-06-07T14:03:54.814Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-06-07T14:03:54.815Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-06-07T14:03:54.815Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-07T14:03:54.815Z] [worker-us-central1-api-416cddab-df5b-41e7-b07f-8b75579ae9ee]: Assigning socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2999.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-416cddab-df5b-41e7-b07f-8b75579ae9ee]: Assigning socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2999.sock"}}
+[debug] [2022-06-07T14:03:54.815Z] [worker-us-central1-api-416cddab-df5b-41e7-b07f-8b75579ae9ee]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-416cddab-df5b-41e7-b07f-8b75579ae9ee]: BUSY"}}
+[debug] [2022-06-07T14:03:55.539Z] [runtime-status] [2999] Functions runtime initialized. {"cwd":"/Users/cherie/code/easy-fix-backend/functions","node_version":"14.19.3"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Functions runtime initialized. {\"cwd\":\"/Users/cherie/code/easy-fix-backend/functions\",\"node_version\":\"14.19.3\"}"}}
+[debug] [2022-06-07T14:03:55.540Z] [runtime-status] [2999] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Disabled runtime features: undefined"}}
+[debug] [2022-06-07T14:03:55.542Z] [runtime-status] [2999] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-06-07T14:03:55.542Z] [runtime-status] [2999] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:03:55.544Z] [runtime-status] [2999] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-06-07T14:03:55.544Z] [runtime-status] [2999] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:03:55.567Z] [runtime-status] [2999] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-06-07T14:03:55.568Z] [runtime-status] [2999] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-06-07T14:03:55.570Z] [runtime-status] [2999] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:03:55.571Z] [runtime-status] [2999] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-06-07T14:03:55.571Z] [runtime-status] [2999] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-06-07T14:03:55.571Z] [runtime-status] [2999] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/cherie/code/easy-fix-backend/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-06-07T14:03:55.779Z] [runtime-status] [2999] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-07T14:03:55.780Z] [runtime-status] [2999] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Running api in signature http"}}
+[debug] [2022-06-07T14:03:55.785Z] [runtime-status] [2999] Attempting to listen to socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2999.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Attempting to listen to socketPath: /var/folders/gt/38k28by53170trlfcddqnp9c0000gn/T/fire_emu_2999.sock"}}
+[debug] [2022-06-07T14:03:55.787Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-07T14:03:55.787Z] [functions] Got req.url=/easy-fix-app-ca/us-central1/api/comments, mapping to path=/comments {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/easy-fix-app-ca/us-central1/api/comments, mapping to path=/comments"}}
+[debug] [2022-06-07T14:03:55.791Z] [runtime-status] [2999] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Ephemeral server handling GET request"}}
+[debug] [2022-06-07T14:03:55.818Z] [runtime-status] [2999] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2999] Ephemeral server survived."}}
+[debug] [2022-06-07T14:03:56.285Z] <<< [apiv2][status] GET http://localhost:5001/easy-fix-app-ca/us-central1/api/comments 200
+[debug] [2022-06-07T14:03:56.285Z] <<< [apiv2][body] GET http://localhost:5001/easy-fix-app-ca/us-central1/api/comments [stream]
+[info] i  hosting: 127.0.0.1 - - [07/Jun/2022:14:03:56 +0000] "GET /comments HTTP/1.1" 200 161 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jun/2022:14:03:56 +0000] \"GET /comments HTTP/1.1\" 200 161 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-07T14:03:56.287Z] [worker-us-central1-api-416cddab-df5b-41e7-b07f-8b75579ae9ee]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-416cddab-df5b-41e7-b07f-8b75579ae9ee]: IDLE"}}
+[debug] [2022-06-07T14:03:56.287Z] [work-queue] {"queueLength":0,"workRunningCount":0}

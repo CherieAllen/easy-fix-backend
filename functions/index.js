@@ -1,6 +1,8 @@
 import functions from 'firebase-functions';
 import express from 'express';
 import cors from 'cors';
+import { addComments, getAllComments } from './src/comments.js';
+
 
 
 
@@ -10,9 +12,8 @@ app.use(express.json());
 
 
 // routes
-app.get('/hello',(req,res) =>{
-    res.send('Welcome')
-});
+app.get('/comments',getAllComments);
+app.post('/comments',addComments);
 // app.patch('/',)
 
 
