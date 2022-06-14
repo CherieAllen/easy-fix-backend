@@ -1,14 +1,16 @@
 {
   "hosting": {
-    "public": "public",
-    "rewrites":[{
-      "source":"**",
-      "function":"api"
-    }],
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "api"
+      }
     ]
   },
   "emulators": {
@@ -16,9 +18,8 @@
       "host": "localhost",
       "port": "5050"
     }
-
-
-
-  
-}
+  },
+  "functions": {
+    "source": "functions"
+  }
 }

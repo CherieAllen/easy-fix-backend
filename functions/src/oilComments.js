@@ -1,29 +1,29 @@
 import connectDb from "../connectDb.js";
 
-export function getAllComments(req, res) {
+export function getOilComments(req, res) {
   const db = connectDb();
-  db.collection("comments")
+  db.collection("oilcomments")
     .get()
     .then((snapshot) => {
-      const commentArray = snapshot.docs.map((doc) => {
-        let comment = doc.data();
-        comment.id = doc.id;
-        return comment;
+      const oilcommentArray = snapshot.docs.map((doc) => {
+        let oilcomment = doc.data();
+        oilcomment.id = doc.id;
+        return oilcomment;
       });
-      res.send(commentArray);
+      res.send(oilcommentArray);
     })
     .catch((err) => {
       res.status(500).send(err);
     });
 }
 
-export function addComments(req, res) {
+export function addOilComments(req, res) {
   if (!req.body) {
     res.status(400).send("Invalid request");
     return;
   }
   const db = connectDb();
-  db.collection("comments")
+  db.collection("oilcomments")
     .add(req.body)
     .then((doc) => {
       res.send("Comment Created");
